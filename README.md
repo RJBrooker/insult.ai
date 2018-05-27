@@ -69,7 +69,7 @@ Build the docker file
 ```bash
 docker build -t insult-ai:latest .
 ```
-Push the image to your Coogle cloud container registry,
+Push the image to your Google cloud container registry,
 ```bash
 docker tag insult-ai:latest eu.gcr.io/[PROJECT-ID]/insult-ai:latest
 docker push eu.gcr.io/[PROJECT-ID]/insult-ai:latest
