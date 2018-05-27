@@ -79,11 +79,11 @@ Create a cluster and start the app,
 gcloud container clusters create cluster-1 --num-nodes "2" 
 kubectl run insult-ai --image eu.gcr.io/[PROJECT-ID]/insult-ai:latest --port 8000
 ```
-Exspose the application 
+Exspose the application and check its running,
 ```bash
 kubectl expose deployment insult-ai --type "LoadBalancer"
+kubectl get service insult-ai
 ```
 Check its running
 ```bash
-kubectl get service insult-ai
 ```
