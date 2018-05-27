@@ -26,10 +26,8 @@ The API has one endpoint
 
 **Data example**
 
-```json
-{
-	"text": "You're so fake, Barbie is jealous.",
-}
+```bash
+curl -d "text=You're so fake, Barbie is jealous." -X POST http://localhost:8000/insult
 ```
 **Success response**
 
