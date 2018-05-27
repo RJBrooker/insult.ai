@@ -12,15 +12,15 @@ The API has one endpoint
 **Data constraints**
 ```json
 {
-	"text": {
-    	"type": "Basic text / string value"
-     },"language": {
-     	"type": "Accepts one of the following values: (en)",
+    "text": {
+        "type": "Basic text / string value"
+    },"language": {
+        "type": "Accepts one of the following values: (en)",
         "default": "en"
-     },"docType": {
-     	"type": "Accepts one of the following values: (PLAIN_TEXT)",
+    },"docType": {
+        "type": "Accepts one of the following values: (PLAIN_TEXT)",
         "default": "PLAIN_TEXT"
-     }
+    }
 }
 ```
 
