@@ -74,7 +74,7 @@ Push the image to your Google cloud container registry,
 docker tag insult-ai:latest eu.gcr.io/[PROJECT-ID]/insult-ai:latest
 docker push eu.gcr.io/[PROJECT-ID]/insult-ai:latest
 ```
-Crate a cluster and start the app,
+Create a cluster and start the app,
 ```bash
 gcloud container clusters create cluster-1 --num-nodes "2" 
 kubectl run insult-ai --image eu.gcr.io/[PROJECT-ID]/insult-ai:latest --port 8000
