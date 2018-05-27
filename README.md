@@ -31,7 +31,7 @@ The API has one endpoint
 }
 ```
 
-**Example Request**
+**Request example**
 ```bash
 curl -d "text=You're so fake, Barbie is jealous." -X POST http://[EXTERNAL_IP]:8000/insult
 ```
