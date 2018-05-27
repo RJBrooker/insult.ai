@@ -54,7 +54,7 @@ curl -d "text=You're so fake, Barbie is jealous." -X POST http://[EXTERNAL_IP]:8
 * [pyTorch](https://pytorch.org/): Python Deep learning framework
 * [hug](https://github.com/timothycrosley/hug): Fast and lightweight Python web framework
 * [Gunicorn](http://gunicorn.org/): Python Web Server Gateway Interface
-* [torchMoji](https://github.com/huggingface/torchMoji): Emoji icons predictions
+* [torchMoji](https://github.com/huggingface/torchMoji): Emoji predictions
 * [Insults Dataset](https://www.kaggle.com/c/detecting-insults-in-social-commentary): Insults in Social Commentary Dataset
 
 The model is built in pyTorch, and trained on Kaggles "Insults in Social Commentary" dataset, using transfer learning.
