@@ -35,11 +35,11 @@ The API has one endpoint
 
 ```json
 {
-	'language': 'en', 
-	'sentences': [{
-		'text': 'You're so fake, Barbie is jealous.', 
-        'score': 0.8516324162000001, 
-        'message': 'That's pretty harsh!'
+	"language": "en", 
+	"sentences": [{
+		"text": "You"re so fake, Barbie is jealous.", 
+        "score": 0.8516324162000001, 
+        "message": "That"s pretty harsh!"
      }]
  }
 ```
