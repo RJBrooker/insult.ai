@@ -37,7 +37,7 @@ The API has one endpoint
 {
 	'language': 'en', 
 	'sentences': [{
-    	'text': "You're so fake, Barbie is jealous.", 
+		'text': 'You're so fake, Barbie is jealous.', 
         'score': 0.8516324162000001, 
         'message': 'That's pretty harsh!'
      }]
@@ -58,7 +58,7 @@ The API handler is built in hug, then served through a Gunicorn Gateway Interfac
 
 ## Kubernetes Setup 
 
-We can run the app using the Kubernetes Container Orchestrator, for fast and scalable deployment.
+We can run the app using Googles Kubernetes Container Orchestrator, for fast and scalable deployment.
 
 Build the docker file 
 ```bash
