@@ -25,10 +25,17 @@ The API has one endpoint
 ```
 
 **Data example**
-
-```bash
-curl -d "text=You're so fake, Barbie is jealous." -X POST http://localhost:8000/insult
+```json
+{
+	"text": "You're so fake, Barbie is jealous.",
+}
 ```
+
+**Example Request**
+```bash
+curl -d "text=You're so fake, Barbie is jealous." -X POST http://[EXTERNAL_IP]:8000/insult
+```
+
 **Success response**
 
 ```json
