@@ -84,6 +84,4 @@ Exspose the application and check its running,
 kubectl expose deployment insult-ai --type "LoadBalancer"
 kubectl get service insult-ai
 ```
-Check its running
-```bash
-```
+
