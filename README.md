@@ -7,7 +7,7 @@ Insult.AI is an API for predicting the offensiveness of insults. It takes a piec
 The API has one endpoint 
 
 **Method** : `POST`
-**ENDPOINT** : `/insult`
+**Endpoint** : `/insult`
 
 **Data constraints**
 ```json
