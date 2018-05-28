@@ -85,3 +85,7 @@ kubectl expose deployment insult-ai --type "LoadBalancer"
 kubectl get service insult-ai
 ```
 
+## To-do
+- [ ] Exstend the training data
+
+
