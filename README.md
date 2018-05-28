@@ -87,5 +87,7 @@ kubectl get service insult-ai
 
 ## To-do
 - [ ] Exstend the training data
+- [ ] Build an adversary network for insult generation 
+
 
 
