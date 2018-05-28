@@ -32,7 +32,7 @@ The API has one endpoint
 
 **Request example**
 ```bash
-curl -d "text=You're so fake, Barbie is jealous." -X POST http://[EXTERNAL_IP]:8000/insult
+curl -X POST http://35.234.131.171:8000/insult -d 'text=Youre so fake Barbie is jealous.'
 ```
 
 **Success response**
@@ -56,7 +56,7 @@ curl -d "text=You're so fake, Barbie is jealous." -X POST http://[EXTERNAL_IP]:8
 * [Gunicorn](http://gunicorn.org/): Python Web Server Gateway Interface
 * [torchMoji](https://github.com/huggingface/torchMoji): Emoji predictions
 
-The model is built in pyTorch, and trained on Kaggles "Insults in Social Commentary" dataset. It utilizes transfer learning through the torchMoji model.
+The model is built in pyTorch, and trained on Kaggles "Insults in Social Commentary" dataset. It utilizes transfer learning through the torchMoji model. 
 
 The API handler is built in hug, then served through a Gunicorn Gateway Interface.
 
