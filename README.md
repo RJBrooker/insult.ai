@@ -32,7 +32,7 @@ The API has one endpoint
 
 **Request example**
 ```bash
-curl -X POST http://35.234.131.171:8000/insult -d 'text=Youre so fake Barbie is jealous.'
+curl -X POST http://35.234.131.171:8000/insult -d "text=Youre so fake Barbie is jealous."
 ```
 
 **Success response**
@@ -60,6 +60,22 @@ The model is built in pyTorch, and trained on Kaggles "Insults in Social Comment
 
 The API handler is built in hug, then served through a Gunicorn Gateway Interface.
 
+## Model Results 
+The model had an accuracy of 0.8482 on the validation set. This is better than the leading Kaggle winner - however I used a different training-validation split, so the results are not directly comparable.
+
+Below are some training examples and their scores, 
+
+| Insult        | Comment           | Score  |
+| ------------- |:-------------:| -----:|
+| 1      | "Can you please crawl back in your pathetic little hole." | 0.9597 |
+| 1     | "DUMB BITCH..!! DUMB BITCH..!! DUMB BITCH..!! DUMB BITCH..!!"    |   0.9572  |
+| 1 | "I never said I was smart. In fact I'm a complete moron. Which goes to show just how stupid you are."      |    0.9571 |
+| 1 | "You are a lying, libeling, loser." | 0.93300128 |
+.... 
+| 0 | "He makes me laugh :)" | 0.0193 | 
+| 0 | "May the best team win this year, because the Bobcats will win it all next year." | 0.0138 |
+| 0 | "The view was to die for! I love the Tour Eiffel..couldn't have been better." | 0.0123 |
+| 0 | "I WOULD LOVE TO HEAR THAT SPEECH." | 0.0093 |
 
 
 ## Kubernetes Setup 
@@ -88,6 +104,7 @@ kubectl get service insult-ai
 
 ## To-do
 - [ ] Exstend the training data
+- [ ] Convert target variable to a continues scale
 - [ ] Tune hyper parameters 
 - [ ] Build an adversary network for insult generation 
 
