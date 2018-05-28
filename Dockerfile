@@ -15,6 +15,7 @@ RUN git clone https://github.com/huggingface/torchMoji.git
 WORKDIR /app/torchMoji
 RUN pip3 install -e .
 
+# Download the model weights
 WORKDIR /app/torchMoji/model/
 RUN wget https://www.dropbox.com/s/nxw5pcogyzqdgdo/insults_model_chain-thaw_1.bin?dl=0 -O insults_model_chain-thaw_1.bin
 RUN python3 -c "import nltk ; nltk.download('punkt')"
