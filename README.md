@@ -61,7 +61,7 @@ The model is built in pyTorch, and trained on Kaggles "Insults in Social Comment
 The API handler is built in hug, then served through a Gunicorn Gateway Interface.
 
 ## Model Results 
-The model had an accuracy of 0.8482 on the validation set. This is better than the Kaggle winner - *however* I used a different training-validation split, so the results are not directly comparable.
+The model had an accuracy of 0.8482 on the validation set. This is better than the Kaggle winner - **however** I used a different training-validation split, so the results are not directly comparable.
 
 Below are some training examples and their scores, 
 
