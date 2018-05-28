@@ -71,7 +71,9 @@ Below are some training examples and their scores,
 | 1     | "DUMB BITCH..!! DUMB BITCH..!! DUMB BITCH..!! DUMB BITCH..!!"    |   0.9572  |
 | 1 | "I never said I was smart. In fact I'm a complete moron. Which goes to show just how stupid you are."      |    0.9571 |
 | 1 | "You are a lying, libeling, loser." | 0.93300128 |
-.... 
+ 
+| .... | .... | .... | 
+
 | 0 | "He makes me laugh :)" | 0.0193 | 
 | 0 | "May the best team win this year, because the Bobcats will win it all next year." | 0.0138 |
 | 0 | "The view was to die for! I love the Tour Eiffel..couldn't have been better." | 0.0123 |
