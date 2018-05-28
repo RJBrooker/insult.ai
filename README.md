@@ -2,7 +2,6 @@
 
 Insult.AI is an API for predicting the offensiveness of insults. It takes a piece of text and returns a prediction of how insulting it the comment is.  
 
-
 ## Overview 
 The API has one endpoint 
 
@@ -61,6 +60,8 @@ The model is built in pyTorch, and trained on Kaggles "Insults in Social Comment
 
 The API handler is built in hug, then served through a Gunicorn Gateway Interface.
 
+
+
 ## Kubernetes Setup 
 
 We can run the app using Googles Kubernetes Container Orchestrator, for fast and scalable deployment.
@@ -87,6 +88,7 @@ kubectl get service insult-ai
 
 ## To-do
 - [ ] Exstend the training data
+-- [ ] Tune hyper parameters 
 - [ ] Build an adversary network for insult generation 
 
 
